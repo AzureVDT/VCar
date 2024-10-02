@@ -1,0 +1,45 @@
+{
+  "translation": {
+    "common.language": "Choose language",
+    "common.language.vietnamese": "Vietnamese",
+    "common.language.english": "English",
+
+    "auth.login.title": "Welcome to VCar!",
+    "auth.login.desc": "Enter your VCar account to continue.",
+    "auth.login.email": "Email",
+    "auth.login.password": "Password",
+    "auth.login.forgot_password": "Forgot password?",
+    "auth.login": "Login",
+    "auth.login.oauth2": "Or login with",
+    "auth.login.register": "Don't have a VCar account?",
+    "auth.login.success": "Login successfully!",
+    "auth.login.failed": "Login failed!",
+
+    "auth.register": "Register",
+    "auth.register.title": "Nice to meet you!",
+    "auth.register.desc": "It's your first time to use VCar.",
+    "auth.register.name": "Name",
+    "auth.register.email": "Email",
+    "auth.register.password": "Password",
+    "auth.register.oauth2": "Or register with",
+    "auth.register.login": "Already have a VCar account?",
+    "auth.register.verify_code": "Verify code",
+    "auth.register.verify_code.desc": "We have sent a verification code to your email.",
+    "auth.register.verify_code.resend": "Resend",
+    "auth.register.success": "Register successfully!",
+    "auth.register.failed": "Register failed!",
+
+    "_comment": "Validate area",
+    "validate.required": "This field is required",
+    "validate.name": "Invalid name",
+    "validate.email": "Invalid email",
+    "validate.password": "Password must be at least 6 characters",
+
+    "_comment": "Verify code area",
+    "verify_code.title": "Verify code",
+    "verify_code.desc": "We have sent a verification code to your email.",
+    "verify_code.submit": "Verify",
+    "verify_code.failed": "Verify failed!",
+    "verify_code.success": "Verify successfully!"
+  }
+}

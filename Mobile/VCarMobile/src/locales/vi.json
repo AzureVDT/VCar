@@ -1,0 +1,46 @@
+{
+  "translation": {
+    "common.language": "Chọn ngôn ngữ",
+    "common.language.vietnamese": "Tiếng Việt",
+    "common.language.english": "Tiếng Anh",
+
+    "auth.login.title": "Chào mừng bạn đến với VCar!",
+    "auth.login.desc": "Nhập tài khoản VCar của bạn để tiếp tục.",
+    "auth.login.email": "Email",
+    "auth.login.email_nullable": "Vui lòng nhập email",
+    "auth.login.password": "Mật khẩu",
+    "auth.login.forgot_password": "Quên mật khẩu?",
+    "auth.login": "Đăng nhập",
+    "auth.login.oauth2": "Hoặc đăng nhập với",
+    "auth.login.register": "Chưa có tài khoản VCar?",
+    "auth.login.success": "Đăng nhập thành công!",
+    "auth.login.failed": "Đăng nhập thất bại!",
+
+    "auth.register": "Đăng ký",
+    "auth.register.title": "Rất vui được gặp bạn!",
+    "auth.register.desc": "Đây là lần đầu tiên bạn sử dụng VCar.",
+    "auth.register.name": "Họ và tên",
+    "auth.register.email": "Email",
+    "auth.register.password": "Mật khẩu",
+    "auth.register.oauth2": "Hoặc đăng ký với",
+    "auth.register.login": "Đã có tài khoản VCar?",
+    "auth.register.verify_code": "Xác thực mã",
+    "auth.register.verify_code.desc": "Chúng tôi đã gửi mã xác thực đến email của bạn.",
+    "auth.register.verify_code.resend": "Gửi lại",
+    "auth.register.success": "Đăng ký thành công!",
+    "auth.register.failed": "Đăng ký thất bại!",
+
+    "_comment": "Validate area",
+    "validate.required": "Trường này không được để trống",
+    "validate.name": "Họ và tên không hợp lệ",
+    "validate.email": "Email không hợp lệ",
+    "validate.password": "Mật khẩu phải có ít nhất 6 ký tự",
+
+    "_comment": "Verify code area",
+    "verify_code.title": "Xác thực mã",
+    "verify_code.desc": "Chúng tôi đã gửi mã xác thực đến email của bạn.",
+    "verify_code.submit": "Xác thực",
+    "verify_code.failed": "Xác thực thất bại!",
+    "verify_code.success": "Xác thực thành công!"
+  }
+}

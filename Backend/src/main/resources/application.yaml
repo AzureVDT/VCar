@@ -1,0 +1,56 @@
+spring:
+  application:
+    name: VCarBE
+  main:
+    web-application-type: reactive
+    allow-bean-definition-overriding: true
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
+    mongodb:
+      uri: mongodb+srv://mongobasic:Social123456789Media@cluster0.oiyfqvw.mongodb.net/VCar?retryWrites=true&w=majority&appName=Cluster0
+app:
+  auth:
+    tokenSecret: 04ca023b39512e46d0c2cf4b48d5aac61d34302994c87ed4eff225dcf3b0a218739f3897051a057f9b846a69ea2927a587044164b7bae5e1306219d50b588cb1
+    tokenExpirationMsec: 864000000
+  cors:
+    allowedOrigins: http://localhost:3000,http://localhost:8080,https://localhost:3000,http://127.0.0.1:5500,http://localhost:5173,http://localhost:8081
+    oauth2:
+      authorizedRedirectUris: http://localhost:3000/oauth2/redirect,https://localhost:3000/oauth2/redirect,http://localhost:5173/oauth2/redirect
+mail:
+  host: smtp.gmail.com
+  port: 587
+  username: ${MAIL_USERNAME:laminhtam5523@gmail.com}
+  password: ${MAIL_PASSWORD:zwyk itwy csoe opwd}
+  sender: ${MAIL_SENDER:VCar}
+  properties:
+    mail:
+      smtp:
+        auth: true
+        starttls:
+          enable: true
+
+blockchain:
+  infuraUrl: ${INFURA_URL}
+  privateKey: ${PRIVATE_KEY}
+  contractAddress: "${CONTRACT_ADDRESS}"
+
+vnp:
+  secretKey: ${VNP_SECRET_KEY}
+  version: ${VNP_VERSION}
+  vnp_TmnCode: ${VNP_TMN}
+  vnp_Url: ${VNP_URL}
+  vnp_ReturnUrl: ${VNP_RETURN_URL}
+  vnp_ApiUrl: ${VNP_API_URL}
+  vnp_Command: ${VNP_COMMAND}
+  timezone_offset: ${TIMEZONE_OFFSET}
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui-custom.html
+vcar:
+  icon: ${VCAR_ICON}
